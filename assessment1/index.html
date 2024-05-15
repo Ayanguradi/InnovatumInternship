@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StayIndia Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" type="text/css" href="day5style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand  " href="#">
+      <h3 class="col"><i class="bi bi-geo-alt-fill"></i><b><span class="red">S</span>tay<span class="red">I</span>ndia.</b></h3>
+            <!-- <img src="log3.png" height="50" > -->
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1024px-Airbnb_Logo_B%C3%A9lo.svg.png" alt="Airbnb Logo" height="30"> -->
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#explore">Explore</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#host">Host</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#become-host">Become a Host</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#signup">Sign Up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#login">Log In</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="hero-section">
+    <div class="container ">
+        <h1>Discover Your Perfect Stay with <span class="red">S</span>tay<span class="red">I</span>ndia</h1>
+        <p>Find unique places to stay and things to do, all around the world.</p>
+        <a href="#explore" class="btn btn-primary btn-lg">Explore Now</a>
+    </div>
+</section>
+
+<section class="search-section">
+    <div class="container">
+        <h2>Find Your Destination</h2>
+        <form>
+            <div class="row">
+                <div class="col-sm mt-2">
+                    <input type="text" class="form-control " placeholder="Where are you going?">
+                </div>
+                <div class="col-sm mt-2">
+                    <input type="date" class="form-control " placeholder="Check-In">
+                </div>
+                <div class="col-sm mt-2">
+                    <input type="date" class="form-control " placeholder="Check-Out">
+                </div>
+                <div class="col-sm mt-2">
+                    <select class="form-select " aria-label="Number of Guests">
+                        <option selected>Guests</option>
+                        <!-- Add options for number of guests here -->
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary btn-lg mt-1">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section class="how-it-works">
+    <div class="container">
+        <h2>How It Works</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="step">
+                    <i class="bi bi-search"></i>
+                    <h3>Search</h3>
+                    <p>Find unique places to stay and things to do, all around the world.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="step">
+                    <i class="bi bi-calendar-check"></i>
+                    <h3>Book</h3>
+                    <p>Book your stay and enjoy your time in amazing destinations.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="step">
+                    <i class="bi bi-heart-fill"></i>
+                    <h3>Enjoy</h3>
+                    <p>Experience unforgettable moments and make memories.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="explore" class="explore-section">
+    <div class="container">
+        <h2>Explore Destinations</h2>
+        <div class="row">
+            <div class="col-md-6 p-4">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner destination">
+                        <div class="carousel-item active">
+                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-605371928419351152/original/c8f48e8b-091d-47ea-85ac-b31bc2604bbb.jpeg?im_w=720" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-605371928419351152/original/55931c3b-c7da-4e04-bcab-515fccb934ec.jpeg?im_w=720" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-605371928419351152/original/82bfaad5-f4ba-4a34-8ef7-fcff61a57e17.jpeg?im_w=720" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="p-3 open" onclick="page1()"><!-- image content -->
+                     <i class="fa-solid fa-star right mt-2">4.8</i>
+                    <h3>Pimplad Nasik, India</h3>
+                    <span class="grey">138 Kilometres away</span><br>
+                    <i class="grey">12-17 May</i>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i><span class="bold">21,300</span> Night</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 p-4">
+                <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner destination">
+                        <div class="carousel-item active">
+                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-1041703012892813453/original/189a363c-bb69-4e87-91de-918146672a65.jpeg?im_w=720" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-1041703012892813453/original/d721e9e0-eb4f-43c3-be10-dfd197e51466.jpeg?im_w=720" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-605371928419351152/original/82bfaad5-f4ba-4a34-8ef7-fcff61a57e17.jpeg?im_w=720" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="p-3 open" onclick="page2()"><!-- image content -->
+                     <i class="fa-solid fa-star right mt-2">4.3</i>
+                    <h3>Sahan, India</h3>
+                    <span class="grey">208 Kilometres away</span><br>
+                    <i class="grey">19-22 May</i>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i><span class="bold">15,700</span> Night</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 p-4">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner destination">
+                        <div class="carousel-item active">
+                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-838924285310198940/original/a00845da-88e2-4f90-ad02-3e3fe9a28638.jpeg?im_w=720" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-838924285310198940/original/84d641ae-ac91-491e-9175-d7a6be748df7.jpeg?im_w=720" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-838924285310198940/original/0fd6ac69-e7fd-4a6a-8604-76cc474a2ded.jpeg?im_w=720" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="p-3 open" onclick="page3()"><!-- image content -->
+                     <i class="fa-solid fa-star right mt-2">4.8</i>
+                    <h3>Mapgaon, India</h3>
+                    <span class="grey">138 Kilometres away</span><br>
+                    <i class="grey">05-09 Jun</i>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i><span class="bold">8,500</span> Night</p>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 p-4">
+                <div id="carouselExampleIndicators11" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="7" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="https://a0.muscache.com/im/pictures/miso/Hosting-878966854944197999/original/a6bb8864-9680-464d-ba14-095a0680b7ed.jpeg?im_w=720" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://a0.muscache.com/im/pictures/miso/Hosting-878966854944197999/original/53144b37-cd15-445c-9ee7-94a90ad1522b.jpeg?im_w=720" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://a0.muscache.com/im/pictures/miso/Hosting-604843151037767955/original/0873dff4-e325-4ead-b0a8-87b894c7d7ad.jpeg?im_w=720" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators11" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators11" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                </div>
+                <div class="p-3 open" onclick="page4()"><!-- image content -->
+                     <i class="fa-solid fa-star right mt-2">5.0</i>
+                    <h3>Alibag, India</h3>
+                    <span class="grey">720 Kilometres away</span><br>
+                    <i class="grey">02-09 june</i>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i><span class="bold">21,300</span> Night</p>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+    <a href="https://www.airbnb.co.in/" class="btn btn-primary btn-block">See All</a>
+</div>
+
+    </div>
+</section>
+
+
+<section class="host-section">
+    <div class="container">
+        <h2>Become a Host and Earn Extra Income</h2>
+        <p>Share your space and start earning. It's easy and free to list your property.</p>
+        <a href="#hosting" class="btn btn-primary btn-lg">Learn More</a>
+    </div> 
+</section>
+
+
+
+<footer class="footer-section bg-dark text-light py-4">
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-md-12">
+                <ul class="list-inline d-flex justify-content-around">
+                    <li class="list-inline-item"><a href="#" class="text-light">About Us</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-light">Contact Us</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-light">Terms of Service</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-light">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-12">
+                <div class="social-icons text-center">
+                    <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="m-0">&copy; 2024 Your Website. Inspired by StayIndia.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap Icons -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/bootstrap-icons.min.js"></script>
+<script type="text/javascript">
+     function redirectToPage() {
+    // Redirect to a new page
+    window.location.href = "https://www.airbnb.co.in/rooms/605371928419351152?adults=1&category_tag=Tag%3A677&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1380991781&search_mode=flex_destinations_search&check_in=2024-05-12&check_out=2024-05-17&source_impression_id=p3_1714539153_gqKIwxcmsK8SyE5%2B&previous_page_section_name=1000&federated_search_id=217df59f-0b76-4494-9379-9a6577b3023a"; // Change the URL to your desired destination
+  }
+
+function page1(){
+     window.location.href="https://www.airbnb.co.in/rooms/605371928419351152?adults=1&category_tag=Tag%3A677&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1380991781&search_mode=flex_destinations_search&check_in=2024-05-12&check_out=2024-05-17&source_impression_id=p3_1714539153_gqKIwxcmsK8SyE5%2B&previous_page_section_name=1000&federated_search_id=217df59f-0b76-4494-9379-9a6577b3023a";
+ }
+
+ function page2(){
+     window.location.href="https://www.airbnb.co.in/rooms/1041703012892813453?adults=1&category_tag=Tag%3A677&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1797070693&search_mode=flex_destinations_search&check_in=2024-05-05&check_out=2024-05-10&source_impression_id=p3_1714558150_DFd7L1EJm9%2BH7mmq&previous_page_section_name=1000";
+ }
+
+  function page3(){
+    window.location.href = "https://www.airbnb.co.in/rooms/838924285310198940?adults=1&category_tag=Tag%3A677&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1884215414&search_mode=flex_destinations_search&check_in=2024-06-02&check_out=2024-06-07&source_impression_id=p3_1714560927_cTFF3np1YvU87RhG&previous_page_section_name=1000";
+  }
+
+  function page4(){
+    window.location.href="https://www.airbnb.co.in/luxury/listing/878966854944197999?adults=1&category_tag=Tag%3A677&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1649391968&search_mode=flex_destinations_search&check_in=2024-05-05&check_out=2024-05-10&source_impression_id=p3_1714558326_2lAA7dweAiLhWkkN&previous_page_section_name=1000";
+}
+  
+</script>
+</body>
+</html>
+

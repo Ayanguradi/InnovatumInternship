@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TODO-List</title>
+</head>
+<body>
+	<center>
+		<h1>TODO-List</h1>
+		<input type="text" name="task" id="task">
+		<button onclick="add_task()">Add Task</button>
+		<ul id="list"></ul>
+	</center>
+
+	<script type="text/javascript">
+		var task=document.getElementById('task');
+		var list=document.getElementById('list');
+		function add_task() {
+			if (task.value.trim() !=="") {
+				var li=document.createElement('li');
+				li.textContent=task.value;
+				list.appendChild(li);
+			}
+			else{
+				alert('Please Enter the task')
+			}
+
+		}
+	</script>
+</body>
+</html>

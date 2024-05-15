@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>day 1 of js</title>
+	<style type="text/css">
+		button{
+			color: white;
+			background-color: blue;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h3 id="fst">click below button to get time</h1>
+	<button onclick="document.getElementById('fst').innerHTML=Date()">Click Me</button>
+
+	<h3 id="snd">click below button to add this two numbers 20+35</h1>
+	<button onclick="document.getElementById('snd').innerHTML=20+35">Click Me</button>
+
+	<h3 id="trd">click below button to know minimum of 10,20,30,40</h1>
+	<button onclick="document.getElementById('trd').innerHTML=Math.min(10,20,30,40)">Click Me</button>
+
+	<h3 id="four">click below button to know maximum of 10,20,30,40</h1>
+	<button onclick="document.getElementById('four').innerHTML=Math.max(10,20,30,40)">Click Me</button>
+
+	<h3 id="five">click below button to change the color</h1>
+	<button onclick="document.getElementById('five').style.color='green'">Click Me</button>
+
+	<h3 id="six">click below button to make uppercase</h1>
+	<button onclick="document.getElementById('six').innerHTML = document.getElementById('six').innerHTML.toUpperCase()">Click Me</button>
+
+	<h3 id="svn">click below button to get year</h1>
+	<button onclick="document.getElementById('svn').innerHTML = new Date().getFullYear()">Click Me</button>
+
+	<h3 id="egt">click below button to change background color</h3>
+	<button onclick="document.getElementById('egt').style.backgroundColor = 'cyan'">Click Me</button>
+
+	<h3 id="nine">click below button to change background color</h3>
+	<button onclick="document.getElementById('nine').style.backgroundColor = 'cyan'">Click Me</button>
+
+	<h3 id="ten">click below button to change body background color</h3>
+	<button onclick="document.body.style.backgroundColor='brown' ">Click Me</button>
+	<br><br>
+
+	<img src="swiss.webp" id="image" onmouseover="cng()"><br>
+	<button onclick="document.getElementById('image').src='kashmir.webp'">GO TO KASHMIR</button>
+	<button onclick="document.getElementById('image').src='norway.webp'">GO TO NORWAY</button>
+	<button onclick="document.getElementById('image').src='swiss.webp'">GO TO SWITZERLAND</button>
+	<button onclick="document.getElementById('image').style.borderRadius='50%'">Make it Round</button>
+	
+
+
+<!-- 
+<script type="text/javascript">
+	function cng() {
+		let image=document.getElementById('image')
+		image.width='700px';
+		image.height='700px';
+	}
+</script> -->
+
+</body>
+</html>

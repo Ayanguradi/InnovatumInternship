@@ -1,0 +1,32 @@
+
+.one{
+	width: 26%;
+	float: left;
+	margin:15px;
+/*	border: 2px solid black;*/
+	padding: 2%;
+
+}
+.two{
+	width: 26%;
+	float: left;
+	margin:15px;
+/*	border: 2px solid black;*/
+	padding: 2%;
+}
+.three{
+	width: 26%;
+	float: left;
+	margin:15px;
+/*	border: 2px solid black;*/
+	padding: 2%;
+}
+h3{
+	color:blue;
+}
+.fa{
+	color: gold;
+}
+img{
+	width: 100%;
+}
